@@ -261,5 +261,7 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+const projectExplanatin = "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects myability to solve complex problems, work with different technologies, and manage projects effectively."
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, projectExplanatin };
