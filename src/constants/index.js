@@ -228,8 +228,7 @@ import {
     {
       name: "PayOto",
       description:
-        "Simplifying car buying, selling, and financing. Find your perfect vehicle, connect with buyers or sellers, and explore tailored financial solutions all in one convenient online platform.",
-      tags: [
+      "The ultimate online platform for car buying, selling, and financing, offering a seamless and convenient experience to discover your perfect vehicle, sell your car effortlessly, connect with trusted sellers, and explore tailored financial solutions, all within a user-friendly interface.",      tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
