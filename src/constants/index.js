@@ -210,7 +210,7 @@ import {
         "Giovane Gentile is your destination for premium, impeccably tailored suits. Discover the epitome of style and sophistication, with a curated collection designed to elevate your wardrobe with timeless elegance. Experience seamless online shopping for the modern gentleman at Giovane Gentile.",
       tags: [
         {
-          name: "react",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
@@ -218,7 +218,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
@@ -235,11 +235,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "graphql",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "redux-toolkit",
           color: "pink-text-gradient",
         },
       ],
