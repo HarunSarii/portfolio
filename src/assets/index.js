@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logo2 from "./logo2.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,6 +7,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -31,6 +33,7 @@ import payoto from "./payoto.png";
 
 export {
   logo,
+  logo2,
   backend,
   creator,
   mobile,
