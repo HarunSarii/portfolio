@@ -10,19 +10,18 @@ import {
     reactjs,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    finrota,
+    inveon,
+    hyperdev,
     carrent,
     jobit,
     tripguide,
     threejs,
+    reactTesting,
+    graphql,
+    jira,
   } from "../assets";
   
   export const navLinks = [
@@ -42,16 +41,16 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
       title: "Front-End Developer ",
       icon: mobile,
     },
     {
       title: "React Developer",
       icon: backend,
+    },
+    {
+      title: "Web Developer",
+      icon: web,
     },
     {
       title: "Full-Stack Developer",
@@ -89,12 +88,12 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "React Testing Library",
+      icon: reactTesting,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Graphql",
+      icon: graphql,
     },
     {
       name: "Three JS",
@@ -109,59 +108,46 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "jira",
+      icon: jira,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Frontend Developer",
+      company_name: "Ecozum Information Technologies",
+      icon: finrota,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Oct 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications in the Fintech field using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "React Developer",
+      company_name: "Inveon",
+      icon: inveon,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Feb 2022 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications in the E-commerce field using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Frontend Developer",
+      company_name: "Hyperdev",
+      icon: hyperdev,
+      iconBg: "#383E56",
+      date: "Aug 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications in the Automotive field using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
@@ -172,26 +158,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Harun proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
-      company: "Acme Co",
+      company: "Ecozum",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Harun does.",
       name: "Chris Brown",
       designation: "COO",
-      company: "DEF Corp",
+      company: "Inveon",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Harun optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "Hyperdev",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -262,6 +248,6 @@ import {
     },
   ];
 
-const projectExplanatin = "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects myability to solve complex problems, work with different technologies, and manage projects effectively."
+  const projectExplanatin = "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects myability to solve complex problems, work with different technologies, and manage projects effectively."
   
   export { services, technologies, experiences, testimonials, projects, projectExplanatin };

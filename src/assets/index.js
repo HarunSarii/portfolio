@@ -20,11 +20,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import reactTesting from "./tech/reactTesting.png";
+import graphql from "./tech/graphql.png";
+import jira from "./tech/jira.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import finrota from "./company/finrota.jpeg";
+import inveon from "./company/inveon.png";
+import hyperdev from "./company/hyperdev.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,7 +62,13 @@ export {
   shopify,
   starbucks,
   tesla,
+  finrota,
+  inveon,
+  hyperdev,
   carrent,
   jobit,
   tripguide,
+  reactTesting,
+  graphql,
+  jira,
 };
