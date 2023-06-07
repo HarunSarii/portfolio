@@ -15,9 +15,9 @@ import {
     finrota,
     inveon,
     hyperdev,
-    carrent,
-    jobit,
-    tripguide,
+    columbia,
+    giovane,
+    payoto,
     threejs,
     reactTesting,
     graphql,
@@ -184,30 +184,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Columbia",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Columbia is a premier e-commerce clothing website that offers a wide selection of fashionable apparel, accessories, and footwear. With a user-friendly interface and a diverse range of products from renowned brands, Columbia.com.tr provides a seamless and convenient online shopping experience for fashion enthusiasts.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "nextjs",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "material-ui",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: columbia,
+      source_code_link: "https://www.columbia.com.tr/",
     },
     {
-      name: "Job IT",
+      name: "Giovane Gentile",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Giovane Gentile is your destination for premium, impeccably tailored suits. Discover the epitome of style and sophistication, with a curated collection designed to elevate your wardrobe with timeless elegance. Experience seamless online shopping for the modern gentleman at Giovane Gentile.",
       tags: [
         {
           name: "react",
@@ -222,13 +222,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: giovane,
+      source_code_link: "https://www.giovanegentile.com/",
     },
     {
-      name: "Trip Guide",
+      name: "PayOto",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Simplifying car buying, selling, and financing. Find your perfect vehicle, connect with buyers or sellers, and explore tailored financial solutions all in one convenient online platform.",
       tags: [
         {
           name: "nextjs",
@@ -243,8 +243,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: payoto,
+      source_code_link: "https://www.payoto.com/",
     },
   ];
 
