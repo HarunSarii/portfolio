@@ -21,10 +21,6 @@ import reactTesting from "./tech/reactTesting.png";
 import graphql from "./tech/graphql.png";
 import jira from "./tech/jira.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import finrota from "./company/finrota.jpeg";
 import inveon from "./company/inveon.png";
 import hyperdev from "./company/hyperdev.jpeg";
@@ -52,10 +48,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   finrota,
   inveon,
   hyperdev,
