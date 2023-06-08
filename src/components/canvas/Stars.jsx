@@ -18,8 +18,8 @@ const Stars = (props) => {
           transparent
           color='#f272c8'
           size={0.002}
-          sizeAttuniation={true}
-          deptWrite={false}
+          sizeAttenuation={true}
+          depthWrite={false}
         />
       </Points>
     </group>
