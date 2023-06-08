@@ -14,9 +14,11 @@ const Contact = () => {
     message: "",
   });
 
-  const serviceKey = import.meta.env.VITE_EMAIL_SERVICE_KEY
-  const templateKey = import.meta.env.VITE_EMAIL_TEMPLATE_SERVICE_KEY
-  const emailPublicKey = import.meta.env.VITE_EMAIL_PUBLIC_KEY
+  console.log('env',JSON.stringify(import.meta.env));
+
+  const serviceKey = JSON.stringify(import.meta.env.VITE_EMAIL_SERVICE_KEY)
+  const templateKey = JSON.stringify(import.meta.env.VITE_EMAIL_TEMPLATE_SERVICE_KEY)
+  const emailPublicKey = JSON.stringify(import.meta.env.VITE_EMAIL_PUBLIC_KEY)
 
   console.log('1:', serviceKey, '2:', templateKey, '3:', emailPublicKey );
 
@@ -32,8 +34,8 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        `${serviceKey}`,
-        `${templateKey}`,
+        serviceKey,
+        templateKey,
         {
           from_name: form.name,
           to_name: "Harun",
@@ -41,7 +43,7 @@ const Contact = () => {
           to_email: "harunsari14@gmail.com",
           message: form.message,
         },
-        `${emailPublicKey}`
+        emailPublicKey
       )
       .then(() => {
         setLoading(false);

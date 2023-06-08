@@ -1,8 +1,0 @@
-{
-    "build": {
-      "env": {
-        "ENV_FILE": ".env.production"
-      }
-    }
-  }
-  
